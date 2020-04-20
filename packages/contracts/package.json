@@ -1,0 +1,21 @@
+{
+  "name": "@gencebay/contracts",
+  "version": "1.0.0-rc.1",
+  "author": "Gencebay Demir",
+  "license": "MIT",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "echo": "echo \"contracts\" && exit 0",
+    "tsc": "tsc",
+    "watch:ts": "tsc --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/react": "^16.9.34",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.20",
+    "typescript": "^3.8.3"
+  }
+}

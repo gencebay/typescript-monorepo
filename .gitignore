@@ -1,0 +1,16 @@
+dist
+node_modules
+.cache
+.vscode
+*.swp
+*~
+*.log
+.DS_Store
+.eslintcache
+*.tsbuildinfo
+coverage
+
+/packages/*/build/
+/packages/*/coverage/
+/packages/*/node_modules/
+/packages/*/package-lock.json

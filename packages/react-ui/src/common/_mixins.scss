@@ -1,0 +1,5 @@
+@import "./colors";
+
+@function border-shadow($alpha, $color: $black, $size: 1px) {
+  @return 0 0 0 $size rgba($color, $alpha);
+}

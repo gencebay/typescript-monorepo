@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "../../packages",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "rootDir": "src",
+    "outDir": "build"
+  },
+  "references": [{ "path": "../contracts" }, { "path": "../react-ui" }]
+}

@@ -1,0 +1,33 @@
+@import "../../common/variables";
+@import "../../common/colors";
+
+$btn-height: 40;
+$btn-shadow-color: #401b7a;
+
+.my-btn {
+  font-family: $helvetica;
+  height: $btn-height;
+  font-size: $regularSize;
+  background: $ancient;
+  cursor: pointer;
+  outline: none;
+  color: $white;
+
+  &:disabled {
+    cursor: default;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &:hover,
+  &:hover,
+  &.hover {
+    box-shadow: 0px 2px 2px $btn-shadow-color;
+  }
+
+  &:active,
+  &.active {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@gencebay/www",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "author": "Gencebay Demir",
+  "license": "MIT",
+  "scripts": {
+    "echo": "echo \"www\" && exit 0",
+    "build": "parcel build src/index.tsx - --no-source-maps --out-file main.min.js",
+    "serve": "parcel index.html --no-cache",
+    "watch": "parcel watch src/index.tsx --out-file main"
+  },
+  "dependencies": {
+    "@gencebay/react-ui": "1.0.0-rc.1",
+    "@gencebay/contracts": "1.0.0-rc.1",
+    "react": "^16.13.1",
+    "react-dom": "~16.13.1",
+    "react-hot-loader": "^4.12.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.4",
+    "typescript": "^3.7.5"
+  }
+}
