@@ -20,6 +20,12 @@ It combines these packages, types, styles and components to work with all depend
 
 ## Development
 
+    # Install npm deps.
+    npm install
+
+    # Install Lerna globally
+    npm install -g lerna
+
     # To manage deps.
     lerna bootstrap
 
